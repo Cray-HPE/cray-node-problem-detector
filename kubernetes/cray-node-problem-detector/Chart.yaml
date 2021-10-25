@@ -1,6 +1,33 @@
-apiVersion: v1
-appVersion: 0.8.1
+apiVersion: v2
 name: cray-node-problem-detector
-description: Cray node problem detecor for monitoring extra attributes on nodes
-home: "cloud/cray-charts"
 version: 1.4.0
+appVersion: 0.8.1
+description: Cray node problem detecor for monitoring extra attributes on nodes
+icon: https://github.com/kubernetes/kubernetes/raw/master/logo/logo.png
+keywords:
+  - node-problem-detector
+  - cray-node-problem-detector
+  - node
+  - problem
+  - detector
+  - monitoring
+home: "home: https://github.com/Cray-HPE/cray-node-problem-detector"
+dependencies:
+  - name: node-problem-detector
+    version: 1.7.6
+    repository: "@stable"
+annotations:
+  artifacthub.io/changes: |
+    - kind: security
+      description: Refactor to use patched CSM images
+      links:
+        - name: Github Issue
+          url: https://github.com/Cray-HPE/cray-node-problem-detector/issues/4
+        - name: Github PR
+          url: https://github.com/Cray-HPE/cray-node-problem-detector/pull/3
+  artifacthub.io/images: |
+    - name: node-problem-detector
+      image: artifactory.algol60.net/csm-docker/stable/k8s.gcr.io/node-problem-detector:v0.8.1
+artifacthub.io/license: MIT
+
+
