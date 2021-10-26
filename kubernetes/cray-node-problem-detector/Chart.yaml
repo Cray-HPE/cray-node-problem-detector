@@ -3,4 +3,4 @@ appVersion: 0.8.1
 name: cray-node-problem-detector
 description: Cray node problem detecor for monitoring extra attributes on nodes
 home: "cloud/cray-charts"
-version: 1.4.0
+version: 1.7.0

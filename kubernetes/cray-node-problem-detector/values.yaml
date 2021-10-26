@@ -11,7 +11,7 @@ node-problem-detector:
     name: node-problem-detector
 
   image:
-    tag: v0.8.0
+    tag: v0.8.1
 
   rbac:
     create: true
