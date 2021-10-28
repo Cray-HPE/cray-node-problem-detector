@@ -1,6 +1,6 @@
 apiVersion: v2
 name: cray-node-problem-detector
-version: 1.4.0
+version: 1.7.0
 appVersion: 0.8.1
 description: Cray node problem detecor for monitoring extra attributes on nodes
 icon: https://github.com/kubernetes/kubernetes/raw/master/logo/logo.png
@@ -11,7 +11,7 @@ keywords:
   - problem
   - detector
   - monitoring
-home: "home: https://github.com/Cray-HPE/cray-node-problem-detector"
+home: "https://github.com/Cray-HPE/cray-node-problem-detector"
 dependencies:
   - name: node-problem-detector
     version: 1.7.6
@@ -29,5 +29,3 @@ annotations:
     - name: node-problem-detector
       image: artifactory.algol60.net/csm-docker/stable/k8s.gcr.io/node-problem-detector:v0.8.1
 artifacthub.io/license: MIT
-
-
