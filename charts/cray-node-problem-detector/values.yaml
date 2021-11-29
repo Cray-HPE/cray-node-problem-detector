@@ -24,8 +24,8 @@ node-problem-detector:
 
   resources:
     requests:
-        memory: "64Mi"
-        cpu: "125m"
+      memory: "64Mi"
+      cpu: "125m"
     limits:
       memory: "256Mi"
       cpu: "3"
