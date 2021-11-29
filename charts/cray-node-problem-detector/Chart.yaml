@@ -30,4 +30,4 @@ annotations:
   artifacthub.io/images: |
     - name: node-problem-detector
       image: artifactory.algol60.net/csm-docker/stable/k8s.gcr.io/node-problem-detector:v0.8.1
-artifacthub.io/license: MIT
+  artifacthub.io/license: MIT
