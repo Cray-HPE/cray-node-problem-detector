@@ -11,6 +11,7 @@ node-problem-detector:
     name: node-problem-detector
 
   image:
+    repository: artifactory.algol60.net/csm-docker/stable/k8s.gcr.io/node-problem-detector
     tag: v0.8.1
 
   rbac:
@@ -23,8 +24,8 @@ node-problem-detector:
 
   resources:
     requests:
-        memory: "64Mi"
-        cpu: "125m"
+      memory: "64Mi"
+      cpu: "125m"
     limits:
       memory: "256Mi"
       cpu: "3"
