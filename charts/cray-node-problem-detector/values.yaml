@@ -12,7 +12,7 @@ node-problem-detector:
 
   image:
     repository: artifactory.algol60.net/csm-docker/stable/k8s.gcr.io/node-problem-detector
-    tag: v0.8.1
+    tag: v0.8.10
 
   rbac:
     create: true
