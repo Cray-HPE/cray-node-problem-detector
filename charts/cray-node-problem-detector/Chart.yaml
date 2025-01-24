@@ -39,7 +39,7 @@ dependencies:
     repository: https://charts.helm.sh/stable
 maintainers:
   - name: bo-quan
-appVersion: 0.8.10
+appVersion: 0.8.20
 annotations:
   artifacthub.io/changes: |
     - kind: security
@@ -51,5 +51,5 @@ annotations:
           url: https://github.com/Cray-HPE/cray-node-problem-detector/pull/3
   artifacthub.io/images: |
     - name: node-problem-detector
-      image: artifactory.algol60.net/csm-docker/stable/k8s.gcr.io/node-problem-detector:v0.8.10
+      image: artifactory.algol60.net/csm-docker/stable/k8s.gcr.io/node-problem-detector:v0.8.20
   artifacthub.io/license: MIT
