@@ -53,6 +53,9 @@ node-problem-detector:
       memory: "256Mi"
       cpu: "3"
 
+  securityContext:
+    privileged: false
+
   # Monitor master nodes as well
   tolerations:
   - key: "node-role.kubernetes.io/master"
