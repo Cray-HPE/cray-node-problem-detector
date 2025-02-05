@@ -52,4 +52,7 @@ annotations:
   artifacthub.io/images: |
     - name: node-problem-detector
       image: artifactory.algol60.net/csm-docker/stable/k8s.gcr.io/node-problem-detector:v0.8.20
+      securityContext:
+        privileged: false
+        allowPrivilegeEscalation: false
   artifacthub.io/license: MIT
