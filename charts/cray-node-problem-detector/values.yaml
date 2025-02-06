@@ -53,9 +53,6 @@ node-problem-detector:
       memory: "256Mi"
       cpu: "3"
 
-  securityContext:
-    privileged: false
-
   # Monitor master nodes as well
   tolerations:
   - key: "node-role.kubernetes.io/master"
@@ -64,17 +61,3 @@ node-problem-detector:
   - key: "node-role.kubernetes.io/control-plane"
     operator: "Exists"
     effect: "NoSchedule"
-
-daemonset:
-  nodeProblemDetector:
-    containers:
-      - name: node-problem-detector
-        securityContext:
-          privileged: false
-
-deployment:
-  nodeProblemDetector:
-    containers:
-      - name: node-problem-detector
-        securityContext:
-          privileged: false
