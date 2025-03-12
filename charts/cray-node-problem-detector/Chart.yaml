@@ -23,7 +23,7 @@
 #
 apiVersion: v2
 name: cray-node-problem-detector
-version: 1.11.0
+version: 1.11.1
 description: Cray node problem detecor for monitoring extra attributes on nodes
 keywords:
   - node-problem-detector

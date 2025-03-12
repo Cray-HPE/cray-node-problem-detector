@@ -39,7 +39,7 @@ node-problem-detector:
 
   rbac:
     create: true
-    pspEnabled: true
+    pspEnabled: false
 
   settings:
     log_monitors:
